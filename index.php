@@ -2,7 +2,8 @@
 session_start();
 
 // Lista de palabras para el juego
-$palabras = ['elefante', 'jirafa', 'hipopotamo', 'rinoceronte', 'cocodrilo', 'camello', 'chimpance'];
+$palabras = ['elefante', 'jirafa', 'hipopotamo', 'rinoceronte', 'cocodrilo', 'camello', 'chimpance', 'leon', 'tigre', 'giraffe', 'ballena', 'tortuga', 'panda', 'koala', 'canguro', 'pantera', 'zorro', 'lince', 'aguila', 'bisonte'];
+
 
 // Inicializar el juego
 if (!isset($_SESSION['palabra'])) {
